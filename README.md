@@ -9,18 +9,31 @@ https://www.lgsvlsimulator.com/docs/build-instructions/
 Die geänderten Skripte müssen wie folgt eingefügt werden:
 
 simulator:
+
   |
+  
   |--Scripts
+  
         |
+        
         |-- Components
+        
               |
+              
               |-- SignalLight.cs
+              
         |
+        
         |--Sensors
+        
             |
+            
             |--GroundTruth2DSensor.cs
+            
             |--GroundTruth2DVisualizer.cs
+            
             |--GroundTruth3DSensor.cs
+            
             |--GroundTruth3DVisualizer.cs
 
 Zudem wurden in allen Bildverarbeitenden Prefabs die Auflösungen für die Bilder angepasst, sodass nicht mehr 1920x1080 verwendet wird, sondern 720*480.
